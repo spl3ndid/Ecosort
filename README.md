@@ -1,16 +1,50 @@
-# ecosort_main_app
+# EcoSort AI 🍃
 
-A new Flutter project.
+[![Flutter](https://img.shields.io/badge/Flutter-3.22-blue)](https://flutter.dev)
+[![TensorFlow Lite](https://img.shields.io/badge/TensorFlow%20Lite-2.12-orange)](https://www.tensorflow.org/lite)
+[![Android](https://img.shields.io/badge/Android-13%2B-brightgreen)](https://www.android.com)
+[![APK Download](https://img.shields.io/badge/Download-APK-success)](https://github.com/yourusername/ecosort-ai/releases/latest/download/app-release.apk)
 
-## Getting Started
+An AI-powered waste classification app that helps you sort trash correctly and learn recycling practices.
 
-This project is a starting point for a Flutter application.
+<img src="docs/screenshots/screenshot1.jpg" width="200" hspace="10"> <img src="docs/screenshots/screenshot2.jpg" width="200" hspace="10"> <img src="docs/screenshots/screenshot3.jpg" width="200" hspace="10">
 
-A few resources to get you started if this is your first Flutter project:
+## Features ✨
+- 📸 Real-time waste classification using camera
+- ♻️ Material-specific recycling guidelines
+- 📊 Environmental impact tracking
+- 📍 Nearby recycling center suggestions
+- 📚 Educational recycling tips
+- 📁 Scan history storage
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Requirements:**
+- Android 13 or higher
+- Camera support
+- 4GB+ RAM recommended
+
+**Installation:**
+1. Enable "Install from unknown sources" in Settings
+2. Download the APK file
+3. Open the downloaded file and install
+
+## Tech Stack 🛠️
+- **Frontend**: Flutter (Dart)
+- **AI Model**: TensorFlow Lite (MobileNetV2)
+- **Computer Vision**: Image package
+- **State Management**: Provider
+- **Local Storage**: SharedPreferences
+
+## Installation (Development) 🔧
+```bash
+# Clone repository
+git clone https://github.com/spl3ndid/Ecosort.git
+
+# Enter project directory
+cd ecosort-ai/app
+
+# Install dependencies
+flutter pub get
+
+# Run on connected Android device
+flutter run
