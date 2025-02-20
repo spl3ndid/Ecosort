@@ -40,9 +40,6 @@ An AI-powered waste classification app that helps you sort trash correctly and l
 # Clone repository
 git clone https://github.com/spl3ndid/Ecosort.git
 
-# Enter project directory
-cd ecosort-ai/app
-
 # Install dependencies
 flutter pub get
 
